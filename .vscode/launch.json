@@ -3,13 +3,10 @@
   "configurations": [
     {
       "name": "Server: Debug",
-      "type": "node",
+      "type": "node-terminal",
       "request": "launch",
-      "runtimeExecutable": "npx",
-      "runtimeArgs": ["tsx", "src/index.ts"],
-      "cwd": "${workspaceFolder:Server}",
-      "console": "integratedTerminal",
-      "skipFiles": ["<node_internals>/**"]
+      "command": "npm run dev",
+      "cwd": "/Users/cashify/Visaul Studio Code/fdeproject/server"
     }
   ]
 }
